@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoefkar Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="content-side">
+            <div class="content-side-animation"></div>
+
+
+
+            <header>
+                <span class="logo" id="logo">Zoef .</span>
+                <nav>
+                    <ul class="menu-responsive">
+                        <li><a href="#" id="aboutLink">About <span>.</span></a></li>
+                        <li><a href="#" id="skillsLink">Skills <span>.</span></a></li>
+                        <li><a href="#" id="contactLink">contact <span>.</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="main" id="main">
+                <h1 class="main-animation">Hi,</h1>
+                <h1 class="main-animation">Welkom in my world</h1>
+                <p class="main-animation">Web Developer & Web Designer</p>
+                <a href="#" class="main-animation">Contact me</a>
+            </section>
+
+            <section class="about" id="about">
+                <h1>About</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequuntur cum, inventore
+                    libero
+                    maxime molestiae pariatur recusandae. Accusamus animi aspernatur dolore ea totam. Ab aliquid
+                    deleniti
+                    dolorem incidunt, odio sed.
+                </p>
+                <a href="#">Download CV</a>
+            </section>
+
+            <section class="skills" id="skills">
+                <h1>Skills</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam culpa, doloremque
+                    explicabo incidunt, ipsum nihil porro praesentium quam repellendus sunt ut voluptate. Ad alias at
+                    consequuntur in officiis veniam.
+                </p>
+                <div class="skills-card">
+                    <div class="html">
+                        <img src="./images/icons/html-5.png" alt="">
+                        <h3>html</h3>
+                        <p>2 years Experience</p>
+                    </div>
+                    <div class="css">
+                        <img src="./images/icons/css-3.png" alt="">
+                        <h3>css</h3>
+                        <p>2 years Experience</p>
+                    </div>
+                    <div class="javascript">
+                        <img src="./images/icons/javascript.png" alt="">
+                        <h3>javascript</h3>
+                        <p>2 years Experience</p>
+                    </div>
+                    <div class="boostrap">
+                        <img src="./images/icons/bootstrap.png" alt="">
+                        <h3>boostrap</h3>
+                        <p>2 years Experience</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h1>Contact Me</h1>
+                <form>
+                    <input type="text" placeholder="Full Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+        <div class="assets-side">
+            <div class="img">
+                <img src="./images/me4.jpg" alt="">
+            </div>
+            <div class="links">
+                <div class="facebook">
+                    <a href="#">facebook</a>
+                </div>
+                <div class="twitter">
+                    <a href="#">twitter</a>
+                </div>
+                <div class="instagram">
+                    <a href="#">instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="open-modal">+</div>
+
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h1>Personal Contact Details</h1>
+        <div class="mail">
+            <img src="./images/icons/email.svg" alt="">
+            <p>zoefkar@outlook.com</p>
+        </div>
+        <div class="address">
+            <img src="./images/icons/map.svg" alt="">
+            <p>Bla Bla bLa voor nu</p>
+        </div>
+        <div class="contact-detials">
+            <img src="./images/icons/phone.svg" alt="">
+            <p>645-546546464</p>
+        </div>
+    </div>
+</div>
+<footer class="cell text-center">
+
+    <p>
+        Copyright © Zoefkar Web Dev .2020
+    </p>
+
+</footer>
+<script src="./javascript/js.js"></script>
+
+<!--<main>-->
+
+<!--    <div class="background">-->
+<!--        <div class="grid-container ">-->
+<!--            <div class="grid-x grid-padding-x align-middle ">-->
+<!--                <div class="cell small-10 small-offset-1 medium-offset-0 medium-6 large-6 links  ">-->
+<!--                </div>-->
+<!--                <div class="cell small-10 small-offset-1 medium-offset-0 medium-6 large-6  container ">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</main>-->
+
+</body>
+</html>

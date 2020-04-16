@@ -1,0 +1,2 @@
+ rm -rf .git
+to start over by reinitialized existing git repository

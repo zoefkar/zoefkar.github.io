@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoefkar Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="content-side">
+            <div class="content-side-animation"></div>
+
+
+            <header>
+                <span class="logo" id="logo">Zoef .</span>
+                <nav>
+                    <ul class="menu-responsive">
+                        <li><a href="#" id="aboutLink">About <span>.</span></a></li>
+                        <li><a href="#" id="skillsLink">Skills <span>.</span></a></li>
+                        <li><a href="#" id="contactLink">Contact  <span>. |</span></a></li>
+<!--                        //new pages-->
+                        <li><a href="projecten/projecten.html" >Projecten<span>.</span></a></li>
+                        <li><a href="hobbys/hobbys.html" >Hobby's<span>.</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="main" id="main">
+                <!--                <h1 class="main-animation">Hi,</h1>-->
+                <h1 class="main-animation">Welkom in mijn wereld</h1>
+                <p class="main-animation">Mijn naam is Zoefkar ik ben een</p>
+                <p class="main-animation">Web Developer & Web Designer</p>
+                <a href="#" class="main-animation">Contact me</a>
+            </section>
+
+            <section class="about" id="about">
+                <h1>About</h1>
+                <h2>Mijn opleding</h2>
+                <!--                <p>Op dit moment volg ik het opleiding Applicatie en Mediaontwikkelaar-->
+                <!--                    niveau 4 bij Techniek College Rotterdam </p>-->
+                <p> school:  Techniek College Rotterdam</p>
+                <p>  opleiding: Applicatie en Mediaontwikkelaar </p>
+                <p>Jaar: 2e jaar</p>
+
+                <h2>Over Mij</h2>
+                <p>
+                   Mijn naam is Zoefkar Nebijan, ik ben 20 jaar oud. De reden dat ik voor deze opleiding heb gekozen is, omdat dit een vooropleiding is
+                    voor mijn vervolg opleiding. Want ik wil graag op het HBO Big Data studeren. Tot nu toe heb ik erg naar mijn zin met mijn opleiding.
+                </p>
+                <a href="#">Download CV</a>
+            </section>
+
+            <section class="skills" id="skills">
+                <h1>Skills</h1>
+                <p>
+                    Al 2 jaar ervaring met Webdesign en Webdevelopment. Zelf vind ik dat ik meer ervaring heb met Front end development dan Back end development.
+                    Mij interesseert Front end meer, vandaar wil ik me later meer specialiseren in Front end development. Alleen op dit moment
+                    kan dat niet op mijn school. Dus ben ik zelf veel bezig met mijn eigen projecten en wil ik op het Hbo iets in die richting gaan volgen.
+                </p>
+                <div class="skills-card">
+                    <div class="html">
+                        <img src="./images/icons/html-5.png" alt="">
+                        <h3>html</h3>
+                        <p class="float-center">2 years Experience</p>
+                    </div>
+                    <div class="css">
+                        <img src="./images/icons/css-3.png" alt="">
+                        <h3>css</h3>
+                        <p class="float-center">2 years Experience</p>
+                    </div>
+                    <div class="javascript">
+                        <img src="./images/icons/javascript.png" alt="">
+                        <h3>javascript</h3>
+                        <p class="float-center">2 years Experience</p>
+                    </div>
+                    <div class="boostrap">
+                        <img src="./images/icons/bootstrap.png" alt="">
+                        <h3>boostrap</h3>
+                        <p class="float-center">2 years Experience</p>
+                    </div>
+                    <div class="foundation">
+                        <img src="./images/icons/foundation-zurb.png" alt="">
+                        <h3>foundation</h3>
+                        <p class="float-center">1 years Experience</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h1>Contact Me</h1>
+                <form>
+                    <input type="text" placeholder="Full Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+        <div class="assets-side">
+            <div class="img">
+                <img src="./images/me4.jpg" alt="">
+            </div>
+            <div class="links">
+                <div class="facebook">
+                    <a href="#">facebook</a>
+                </div>
+                <div class="twitter">
+                    <a href="#">twitter</a>
+                </div>
+                <div class="instagram">
+                    <a href="#">instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--sociall responsive-->
+<div class="grid-container links-responsive ">
+    <div class="grid-x grid-padding-x">
+
+        <div class="facebook cell medium-4 ">
+            <a class="align-self-middle" href="#">facebook</a>
+        </div>
+        <div class="twitter cell medium-4 ">
+            <a href="#">twitter</a>
+        </div>
+        <div class="instagram cell medium-4 ">
+            <a href="#">instagram</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="open-modal">+</div>
+
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h1>Personal Contact Details</h1>
+        <div class="mail">
+            <img src="./images/icons/email.svg" alt="">
+            <p>zoefkar@outlook.com</p>
+        </div>
+        <div class="address">
+            <img src="./images/icons/map.svg" alt="">
+            <p>Bla Bla bLa voor nu</p>
+        </div>
+        <div class="contact-detials">
+            <img src="./images/icons/phone.svg" alt="">
+            <p>645-546546464</p>
+        </div>
+    </div>
+</div>
+<footer class="cell text-center">
+
+    <p>
+        Copyright © Zoefkar Web Dev .2020
+    </p>
+
+</footer>
+<script src="./javascript/js.js"></script>
+
+</body>
+</html>

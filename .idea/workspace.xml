@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c0b655e-10cd-455f-8094-f148afb3bf81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobbys/fitness-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobbys/freerunnen-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobbys/hobbys.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobbys/voetbal-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/blauwvintonijn.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/blog.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/fitness-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/fitness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/freerunning1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/freerunning2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/freerunning3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/freerunning4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/header2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/header5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/me1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/me3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/me4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/me5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/portfolio-website.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/stoplicht.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/voetbal-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/voetbal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big images/webshop.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/fitness-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/fitness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/freerunning1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/freerunning2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/freerunning3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/freerunning4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/voetbal-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hobbys/voetbal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/foundation-zurb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/FED/Blauwvintonijn.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/FED/Blog.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/FED/portfolio-website.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/FED/webshop.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/JAVASCRIPT/stoplicht.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projecten/bootstrap/Blog.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projecten/projecten.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/adult-adventure-auto-2409681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/architecture-buildings-china-1366957.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blue-blur-blurred-background-2370726.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blue-water-blur-close-up-1231622.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/color-dark-daylight-2170233.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VA0Cxu87O7IuO2Bnq0trZLwoQx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio website - 2020 - kopie" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\PhpStorm 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/css/media.css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\portfolio website\css" />
+      <recent name="D:\xampp\htdocs\portfolio website\images\vormen" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\portfolio website - 2020\projecten" />
+      <recent name="D:\xampp\htdocs\portfolio website - 2020\hobbys" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c0b655e-10cd-455f-8094-f148afb3bf81" name="Default Changelist" comment="" />
+      <created>1576680469985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576680469985</updated>
+      <workItem from="1576680478324" duration="61000" />
+      <workItem from="1576680828309" duration="493000" />
+      <workItem from="1576682968074" duration="43000" />
+      <workItem from="1576683026677" duration="4532000" />
+      <workItem from="1576836369489" duration="4526000" />
+      <workItem from="1576842027410" duration="2142000" />
+      <workItem from="1580986466321" duration="277000" />
+      <workItem from="1583765790527" duration="625000" />
+      <workItem from="1583766601862" duration="9797000" />
+      <workItem from="1583838997090" duration="41000" />
+      <workItem from="1583875646004" duration="1132000" />
+      <workItem from="1583923158826" duration="11165000" />
+      <workItem from="1584008290469" duration="86000" />
+      <workItem from="1584009082293" duration="911000" />
+      <workItem from="1584220518992" duration="34000" />
+      <workItem from="1584280670034" duration="42660000" />
+      <workItem from="1584566932298" duration="1096000" />
+      <workItem from="1584615918049" duration="1759000" />
+      <workItem from="1584619493944" duration="11176000" />
+      <workItem from="1584697029560" duration="139000" />
+      <workItem from="1584697264028" duration="7961000" />
+      <workItem from="1584960064646" duration="6290000" />
+      <workItem from="1585043471605" duration="13438000" />
+      <workItem from="1585131515219" duration="9759000" />
+      <workItem from="1585911525748" duration="1197000" />
+      <workItem from="1586952082859" duration="1009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="542" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584534158269">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584534158269" />
+    <state x="449" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584697109395">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584697109395" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1584621374627">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1584621374627" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1585219795207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585219795207" />
+    <state width="522" height="446" key="SwitcherDM" timestamp="1585132735739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="522" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585132735739" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1586952240021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586952240021" />
+    <state x="894" y="190" key="run.anything.popup" timestamp="1584621797769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="894" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584621797769" />
+    <state x="814" y="145" key="search.everywhere.popup" timestamp="1583767213459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583767213459" />
+  </component>
+</project>

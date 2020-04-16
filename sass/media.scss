@@ -1,0 +1,135 @@
+$foundation-palette: (
+        primary: black,
+        secondary: whitesmoke,
+        success: #3adb76,
+        warning: #ffae00,
+        alert: #cc4b37,
+);
+//normal
+$primary-color: black;
+$secondary-color: whitesmoke;
+//new
+$logo-color: #3835ff;
+$navLink-color: #656d78;
+$sectionH1-color: #48cfad;
+$mainPara-color: #ed5565;
+$btnBg-color: #fc6e51;
+$sectionPara-color: #656d78;
+$skillsCard-color: #4fc1e9;
+$skillsH3-color: #3c3b3d;
+$inputBorder-color: #656d78;
+$profileBg-color: #e0e9f2;
+$modalH1-color: #fc6e51;
+$facebookBg-color: #3b5999;
+$twitterBg-color: #55acee;
+$instagramBg-color: #e3305f;
+
+
+@import "foundation";
+
+@media handheld, only screen and (max-width: 1050px) { // MEDIUM
+
+  //hobbys page
+  .voetbal {
+    margin: 1rem 0;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  //header
+  .header h1 {
+    font-size: 26px;
+  }
+
+}
+
+@media handheld, only screen and (max-width: 640px) { // SMALL
+  .container {
+    .wrapper {
+      display: block;
+      grid-template-columns: 0;
+
+      .content-side {
+        padding-left: 50px;
+      }
+    }
+  }
+
+  //open modal mobile
+  .open-modal {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 0%;
+    left: 63.5%;
+    font-size: 2rem;
+  }
+
+  //asset facebook
+  .assets-side {
+    display: none;
+
+    .links {
+      display: none;
+    }
+  }
+  .links-responsive {
+    display: flex;
+
+    .facebook, .twitter, .instagram {
+      text-align: center;
+      height: 3.5rem;
+      padding: 6px;
+
+      a {
+        font-size: 1.5rem;
+        color: $secondary-color;
+      }
+    }
+
+    .facebook {
+      background-color: $facebookBg-color;
+    }
+
+    .instagram {
+      background-color: $instagramBg-color;
+    }
+
+    .twitter {
+      background-color: $twitterBg-color;
+    }
+  }
+  //van hier werken
+  //nav
+  header .logo {
+    padding-right: 0;
+  }
+  .menu .button, .menu a {
+    margin: 0.7rem 1rem;
+  padding: 0;
+  }
+
+  //hobbys page responsive
+  .hobbys-section .sport h2 {
+    font-size: 1.5rem;
+  }
+  .new-design h1 {
+    font-size: 28px;
+  }
+
+  .freerunnen{
+    margin: 1rem 0;
+    p{
+      text-align: start;
+    }
+  }
+
+  //projecten responsive
+  .btn {
+    padding: 10px 6px;
+  }
+}

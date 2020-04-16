@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Projecten</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+<div class="new-design">
+    <header>
+        <a href="../index.html"><span class="logo" id="logo">Zoef .</span></a>
+        <nav class="new-nav">
+            <ul class="menu align-right">
+                <li><a href="../hobbys/hobbys.html">Hobby's<span>.</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="float-center">Mijn Projecten</h1>
+</div>
+
+<!--isotope-->
+<div class="grid-container projecten fluid  ">
+
+    <div class="grid-x grid-margin-x  ">
+        <div id="myBtnContainer" class="large-12 float-center text-center">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('fed')">Font End</button>
+            <button class="btn" onclick="filterSelection('javascript')"> Javascript</button>
+            <button class="btn" onclick="filterSelection('bootstrap')"> Bootstrap</button>
+        </div>
+
+        <!-- Portfolio project Grid -->
+        <!--frond end-->
+        <div class="row large-12 align-spaced small-centered ">
+            <div class="column fed large-4 medium-6 small-10 ">
+                <div class="content">
+                    <img src="../images/projecten/fed/portfolio-website.PNG" alt="portfolio website">
+                    <h4>Portfolio website</h4>
+                </div>
+            </div>
+            <div class="column fed large-4 medium-6 small-10">
+                <div class="content">
+                    <img src="../images/projecten/fed/webshop.PNG" alt="webshop">
+                    <h4>Webshop</h4>
+                </div>
+            </div>
+            <div class="column fed large-4 medium-6 small-10">
+                <div class="content">
+                    <img src="../images/projecten/fed/blog.PNG" alt="blog website">
+                    <h4>Blog</h4>
+                </div>
+            </div>
+
+            <div class="column fed large-4 medium-6 small-10">
+                <div class="content">
+                    <img src="../images/projecten/fed/blauwvintonijn.PNG" alt="blauwvintonijn website">
+                    <h4>Blauwvintonijn</h4>
+                </div>
+            </div>
+            <!--javascript-->
+            <div class="column javascript large-4 medium-6 small-10 small-centered ">
+                <div class="content large-12">
+                    <img src="../images/projecten/javascript/stoplicht.PNG" alt="stoplicht opdracht">
+                    <h4>Stoplicht</h4>
+                </div>
+            </div>
+            <!--     boostrap       -->
+            <div class="column bootstrap large-4 medium-6 small-10 small-centered">
+                <div class="content large-12">
+                    <img src="../images/projecten/bootstrap/blog.png" alt="blog website">
+                    <h4>Blog</h4>
+                </div>
+            </div>
+
+            <!-- END GRID -->
+        </div>
+    </div>
+</div>
+
+
+<footer class="cell text-center">
+
+    <p>
+        Copyright © Zoefkar Web Dev .2020
+    </p>
+
+</footer>
+<script src="../javascript/js.js"></script>
+<script>
+    filterSelection("all");
+    function filterSelection(c) {
+        let x, i;
+        x = document.getElementsByClassName("column");
+        if (c === "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    function w3AddClass(element, name) {
+        let i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) === -1) {element.className += " " + arr2[i];}
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        let i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    let btnContainer = document.getElementById("myBtnContainer");
+    let btns = btnContainer.getElementsByClassName("btn");
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            let current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+</body>
+</html>
+
+
+
+
+

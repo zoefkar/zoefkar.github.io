@@ -1,0 +1,71 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Freerunnen</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+<div class="single-hobbys">
+    <header>
+        <a href="../index.html"><span class="logo" id="logo">Zoef .</span></a>
+        <nav class="new-nav">
+            <ul class="menu align-right">
+                <li><a href="hobbys.html">Hobby's<span>.</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--    <h1 class="float-center">Mijn hobby's</h1>-->
+
+    <div class="grid-x  align-spaced ">
+        <div class="freerunnen cell large-5 align-center">
+            <img class="mySlides" src="../images/hobbys/freerunning1.jpg" alt="iemand die een salto doet bij een auto">
+            <img class="mySlides" src="../images/hobbys/freerunning2.jpg" alt="iemand die een backflip doet">
+            <img class="mySlides" src="../images/hobbys/freerunning3.jpg" alt="iemand die spring en oefent met parkour">
+            <img class="mySlides" src="../images/hobbys/freerunning4.jpg" alt="iemand die springt in de ver te met parkours skills">
+
+        </div>
+        <div class="freerunnen cell large-8">
+            <div class="text-artiekel">
+                <h2>Freerunnen</h2>
+                <p>2014 tot 2015 heb ik op Freerunning gezeten. Was echt een bijzondere sport voor mij omdat het zoooo
+                    ongelovelijk bijzonder was. Graag wilde ik doorgaan met Freerunning voor een lange termijn. Maar
+                    helaas moest ik ermee stoppen in 2015 door verhuizing maar het buitenland. Toen ik 2017 terug kwam,
+                    ik zal eerlijk zeggen had ik mijn zelfvertrouwen niet leer om de zelfde dingen te toen die ik toen
+                    had beheersd. Het sport Freerunning raad ik echt wel aan het is echt een seciale sport en kan je
+                    veel dingen beheersen. Belangrijk nooit alleen doen wanneer je niks beheerst. Vooral in het begin
+                    doe het met een begrlijdende trainer👻.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="cell text-center">
+
+    <p>
+        Copyright © Zoefkar Web Dev .2020
+    </p>
+
+</footer>
+<script>
+    let myIndex = 0;
+    carousel();
+
+    function carousel() {
+        let i;
+        const x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+<script src="../javascript/js.js"></script>
+</body>
+</html>
